@@ -1,0 +1,46 @@
+[
+	{
+		"month": "Январь",
+		"data": {
+			"createdTasks": 15,
+			"completedTasks": 12,
+			"pullRequests": 4,
+			"commits": 7
+		}
+	},
+	{
+		"month": "Февраль",
+		"data": {
+			"createdTasks": 25,
+			"completedTasks": 55,
+			"pullRequests": 47,
+			"commits": 75
+		}
+	},
+	{
+		"month": "Март",
+		"data": {
+			"createdTasks": 1525,
+			"completedTasks": 55,
+			"pullRequests": 2,
+			"commits": 5
+		}
+	},
+	{
+		"month": "Апрель",
+		"data": {
+			"createdTasks": 66,
+			"completedTasks": 555,
+			"pullRequests": 55,
+			"commits": 7
+		}
+	},
+	{"month": "Май", "data": {}},
+	{"month": "Июнь", "data": {}},
+	{"month": "Июль", "data": {}},
+	{"month": "Август", "data": {}},
+	{"month": "Сентябрь", "data": {}},
+	{"month": "Октябрь", "data": {}},
+	{"month": "Ноябрь", "data": {}},
+	{"month": "Декабрь", "data": {}}
+]

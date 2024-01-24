@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	display: "none";
+}
