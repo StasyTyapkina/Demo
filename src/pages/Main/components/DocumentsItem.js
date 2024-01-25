@@ -18,7 +18,6 @@ const DataItem = styled(Box)({
 	},
 })
 
-//компонент отображает данные по документам
 export const DocumentsItem = ({item}) => {
 	return (
 		<Box
@@ -44,7 +43,7 @@ export const DocumentsItem = ({item}) => {
 			) : (
 				<DataItem>
 					<Typography variant="h6" gutterBottom>
-						Нет данных
+						No data
 					</Typography>
 				</DataItem>
 			)}

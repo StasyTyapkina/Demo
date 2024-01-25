@@ -4,7 +4,6 @@ import {ListItemText, ListItemIcon, List, ListItemButton} from "@mui/material"
 import {styled} from "@mui/material/styles"
 import AutoAwesomeMosaicIcon from "@mui/icons-material/AutoAwesomeMosaic"
 import ListAltIcon from "@mui/icons-material/ListAlt"
-import TrendingUpIcon from "@mui/icons-material/TrendingUp"
 
 const Nav = styled(List)({
 	paddingTop: "32px",
@@ -39,7 +38,6 @@ const Nav = styled(List)({
 	},
 })
 
-/** NavList*/
 export const NavList = () => {
 	return (
 		<Nav component="nav">
@@ -47,14 +45,7 @@ export const NavList = () => {
 				<ListItemIcon>
 					<AutoAwesomeMosaicIcon />
 				</ListItemIcon>
-				<ListItemText primary="Основные показатели" />
-			</ListItemButton>
-
-			<ListItemButton component={NavLink} to={"/reports"} key="reports">
-				<ListItemIcon>
-					<TrendingUpIcon />
-				</ListItemIcon>
-				<ListItemText primary="Отчеты" />
+				<ListItemText primary="INFO" />
 			</ListItemButton>
 
 			<ListItemButton component={NavLink} to={"/todo"} key="todo">

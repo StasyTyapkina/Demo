@@ -1,5 +1,4 @@
-import {createAsyncThunk, createSlice} from "@reduxjs/toolkit"
-import {setSnackbarNotification} from "./snackbarSlice"
+import {createSlice} from "@reduxjs/toolkit"
 
 const initialTasks = [
 	{

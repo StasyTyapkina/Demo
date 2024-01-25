@@ -1,4 +1,5 @@
 import React, {useCallback} from "react"
+import PropTypes from "prop-types"
 import {useDispatch} from "react-redux"
 import {Card, CardHeader, IconButton} from "@mui/material"
 import {Draggable} from "react-beautiful-dnd"
@@ -29,4 +30,9 @@ export const TodoCard = ({task, index}) => {
 			)}
 		</Draggable>
 	)
+}
+
+TodoCard.propTypes = {
+	task: PropTypes.object,
+	index: PropTypes.number,
 }

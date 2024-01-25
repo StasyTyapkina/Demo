@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## Demo project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `Getting Started`
 
-## Available Scripts
+Clone the repository to your local machine.
+Make sure you have Node.js installed.
+Open a terminal in the root directory of the application and run npm install to install dependencies.
+After installing dependencies, run npm start to launch the application.
 
-In the project directory, you can run:
+### `Key Features`
 
-### `npm start`
+#### `Random Data Overview`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The first page of the application features a captivating display of 6 cards, each showcasing a random representation of the number of documents per team. The data is dynamically presented, offering a glimpse into the document statistics for various teams.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Interactive Graphs: Click on the graph icon on each card to open a modal window displaying a detailed chart based on the corresponding data.
 
-### `npm test`
+Data Export: In the header of the first page, you can find an option to export the displayed data to Excel.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Monthly Data Exploration: Navigate through different months using Select in the header of the first page .
 
-### `npm run build`
+#### `Random Activity for Today`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The 7th card on this page reveals a random activity for today. This activity is dynamically fetched from an API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/StasyTyapkina/Demo/assets/70165747/e1260ec0-826f-4fe3-b6f5-469935d74eab)
+![image](https://github.com/StasyTyapkina/Demo/assets/70165747/fe595b63-71c7-45b9-9b05-a3a01c0755ff)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `ToDo List`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+On the second page of the application, you will find a convenient ToDo list.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Adding Tasks: Simply enter a task in the input field and click "+" button. Your new task will be added to the list.
 
-## Learn More
+Column Distribution: Move task between the "In Progress" "Done" columns to track your progress.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deleting Tasks: If a task is completed or no longer needed, simply remove it from the list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/StasyTyapkina/Demo/assets/70165747/da3c2e9b-0599-4b72-92a1-ecd1ade7637c)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `Technical Information`
 
-### Analyzing the Bundle Size
+The application is developed with React, ensuring fast and dynamic content loading.
+Also used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Redux Toolkit
+- Material-UI (mui)
+- Recharts

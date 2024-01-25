@@ -1,6 +1,7 @@
 import React from "react"
 import {Box, Container} from "@mui/material"
 import PropTypes from "prop-types"
+import {SimpleSnackbar} from "./SimpleSnackbar"
 
 export const ContentContainer = ({children}) => {
 	return (
@@ -14,6 +15,7 @@ export const ContentContainer = ({children}) => {
 			<Container maxWidth={false} sx={{pt: "55px", pl: "45px !important", m: 0}}>
 				{children}
 			</Container>
+			<SimpleSnackbar />
 		</Box>
 	)
 }

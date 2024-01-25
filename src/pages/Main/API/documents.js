@@ -1,4 +1,24 @@
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+export const months = [
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December",
+]
+
+export const headersForExcel = [
+	{header: "Month", key: "month", width: 50},
+	{header: "Section Name", key: "sectionName", width: 50},
+	{header: "Title", key: "title", width: 50},
+	{header: "Docs Number", key: "docsNumber", width: 50},
+]
 
 const generateRandomDocsNumber = () => Math.floor(Math.random() * 101) // Generate numbers from 0 to 100
 
@@ -44,13 +64,16 @@ const generateMonthlyData = () => {
 				sectionName: "Rejected Documents",
 				data: generateData(),
 			},
-
 			{
 				sectionName: "Pending Approval",
 				data: generateData(),
 			},
 			{
 				sectionName: "Pending for Signature",
+				data: generateData(),
+			},
+			{
+				sectionName: "Pending for Utilization",
 				data: generateData(),
 			},
 		],

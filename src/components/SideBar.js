@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import {styled} from "@mui/material/styles"
 import MuiDrawer from "@mui/material/Drawer"
-import {Box, Toolbar, Typography, IconButton} from "@mui/material"
+import {Toolbar, IconButton} from "@mui/material"
 import MenuOpenIcon from "@mui/icons-material/MenuOpen"
 import MenuIcon from "@mui/icons-material/Menu"
 import {NavList} from "./NavList"

@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import PropTypes from "prop-types"
 import {styled} from "@mui/material/styles"
 import {Droppable} from "react-beautiful-dnd"
 import {TextField, Typography, Box, IconButton} from "@mui/material"
@@ -60,4 +61,10 @@ export const Column = ({column, tasks, onAddTodo}) => {
 			</Droppable>
 		</ColumnContainer>
 	)
+}
+
+Column.propTypes = {
+	column: PropTypes.string,
+	tasks: PropTypes.array,
+	onAddTodo: PropTypes.func,
 }

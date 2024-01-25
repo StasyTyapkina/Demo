@@ -19,7 +19,6 @@ const CustomSelect = styled(Select)(() => ({
 	},
 }))
 
-/**компонент с селектом */
 export const SelectComponent = ({handleChangeValue, valueList, chosenValue, defaultValue = ""}) => {
 	return (
 		<Grid item>

@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import {Grid, Typography} from "@mui/material"
 
-/** заголовок страница и фильтры */
 export const Header = ({title, children}) => {
 	return (
 		<div style={{display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 30}}>
