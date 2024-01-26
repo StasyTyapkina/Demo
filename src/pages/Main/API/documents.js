@@ -20,9 +20,9 @@ export const headersForExcel = [
 	{header: "Docs Number", key: "docsNumber", width: 50},
 ]
 
-const generateRandomDocsNumber = () => Math.floor(Math.random() * 101) // Generate numbers from 0 to 100
+export const generateRandomDocsNumber = () => Math.floor(Math.random() * 101)
 
-const generateData = () => {
+export const generateData = () => {
 	const data = [
 		{
 			title: "Team 1",
@@ -48,7 +48,7 @@ const generateData = () => {
 	return data
 }
 
-const generateMonthlyData = () => {
+export const generateMonthlyData = () => {
 	return months.map((month) => ({
 		month: month,
 		data: [

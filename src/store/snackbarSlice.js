@@ -3,7 +3,7 @@ import {createSlice} from "@reduxjs/toolkit"
 const initialState = {
 	isVisible: false,
 	notificationMessage: "",
-	notificationType: "", // 'error', 'warning', 'success', 'info'
+	notificationType: "",
 }
 
 const snackbarSlice = createSlice({
